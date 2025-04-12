@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="myForm" action="" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+        First Name: <input type="text" name="firstname" /> <br /><br />
+        Last Name: <input type="text" name="lastname" /> <br /><br />
+        Password: <input type="password" name="pass" /> <br /><br />
+        Gender:
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female <br /><br />
+        Subjects:
+        <input type="checkbox" name="s1" value="English" /> English
+        <input type="checkbox" name="s2" value="Hindi" />Hindi
+        <input type="checkbox" name="s3" value="Marathi" />Marathi
+        <input type="checkbox" name="s4" value="Other" />Other <br /><br />
+        Caste:
+        <select name="caste">
+          <option value="">Select Caste Category</option>
+          <option value="OPEN">OPEN</option>
+          <option value="OBC">OBC</option>
+          <option value="ST">ST</option>
+          <option value="NT">NT</option>
+        </select>
+        <br /><br />
+        List of Cities: <br />
+        <input list="city" name="usercity" />
+        <datalist id="city">
+          <option value="Pune"></option>
+          <option value="Mumbai"></option>
+          <option value="Chennai"></option>
+          <option value="Nashik"></option>
+          <option value="Nagpur"></option>
+        </datalist>
+        <br /><br />
+        Enter Address: <br />
+        <textarea name="useraddress" rows="4" cols="20">Write text here.</textarea> <br /><br />
+        <button type="submit" name="sum">Submit</button>
+        <button type="reset" name="reset">Clear</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
