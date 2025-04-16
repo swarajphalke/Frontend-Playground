@@ -1,44 +1,36 @@
-•
-4:03 PM (Edited 4:46 PM)
-
-array_obj.html
-HTML
-
-math_obj.html
-HTML
-
-fun.html
-HTML
-Class comments
-
-Add class comment…
+• 4:03 PM (Edited 4:46 PM) array_obj.html HTML math_obj.html HTML fun.html HTML
+Class comments Add class comment…
 
 <!DOCTYPE html>
 <html>
-<head>
-	<script type="text/javascript">
-		var arr=[11,22,33,44,55,66,22]
-		document.write(arr)
-		document.write("<br>Array Size : "+arr.length)
+  <head>
+    <script type="text/javascript">
+      var arr = [11, 22, 33, 44, 55, 66, 22];
+      document.write(arr);
+      document.write("<br>Array Size : " + arr.length);
 
-		var a1=["HTML","CSS","JS","JAVA","JSP"]
-		var a2=[1.1,2.2,3.3]
-		var newarray=arr.concat(a1,a2)
-		document.write("<br>"+newarray)
-        document.write("<br>indexOf : "+arr.indexOf(22))
-		document.write("<br>lastIndexOf : "+arr.lastIndexOf(22))
-		document.write("<br>"+arr.join('-'))
-        arr.push(101)
-		arr.push(102)
-		document.write("<br>"+arr)
-		document.write("<br> pop "+arr.pop())
-		document.write("<br>"+arr)
-		
+      var a1 = ["HTML", "CSS", "JS", "JAVA", "JSP"];
+      var a2 = [1.1, 2.2, 3.3];
+      var newarray = arr.concat(a1, a2);
+      document.write("<br>" + newarray);
+      document.write("<br>indexOf : " + arr.indexOf(22));
+      document.write("<br>lastIndexOf : " + arr.lastIndexOf(22));
+      document.write("<br>" + arr.join("-"));
+      arr.push(101);
+      arr.push(102);
+      document.write("<br>" + arr);
+      document.write("<br> pop " + arr.pop());
+      document.write("<br>" + arr);
 
+      //a1.reverse()
+      //document.write("<br>"+a1)
+      document.write("<br>" + a1.slice(3));
+      document.write("<br>" + a1.slice(1, 4));
+      var a3 = [15, 2, 13, 10, 4, 123, 111];
+      document.write("<br> Before Sort  " + a3);
 
-	</script>
-</head>
-<body>
-
-</body>
+      document.write("<br> Sort  " + a3.sort((x, y) => x - y));
+    </script>
+  </head>
+  <body></body>
 </html>
