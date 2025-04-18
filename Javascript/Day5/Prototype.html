@@ -10,6 +10,11 @@
           document.write(this.bid + "  " + this.bname);
         };
       }
+      Book.prototype.author = "BGS";
+
+      Book.prototype.disp = function () {
+        document.write("<br>" + this.author);
+      };
     </script>
   </head>
   <body></body>
