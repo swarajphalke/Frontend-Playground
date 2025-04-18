@@ -13,6 +13,14 @@ HTML prototype1.html HTML Class comments Add class comment…
       Person.prototype.disp = function () {
         document.write(this.id + "  " + this.name);
       };
+      function Emp(id, name, desig) {
+        Person.call(this, id, name);
+        this.desig = desig;
+
+        this.dispEmp = function () {
+          document.write("<br>" + this.desig);
+        };
+      }
     </script>
   </head>
   <body></body>
