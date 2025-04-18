@@ -17,6 +17,21 @@
 
 		document.write("<br>"+stud.empid+"  "+stud["empname"])
 
+		//By using an object constructor (using new
+		//keyword)
+
+		function Student(rollno,name)
+		{
+			this.rollno=rollno
+			this.name=name
+
+			this.show=function(){
+				document.write("<br>"+this.rollno+"  "+this.name)
+			}
+		}
+		var stud1=new Student(11,"Soniya")
+		stud1.show()
+
 		
 	</script>
 </head>
