@@ -21,6 +21,13 @@ HTML prototype1.html HTML Class comments Add class comment…
           document.write("<br>" + this.desig);
         };
       }
+
+      Emp.prototype = new Person(); //inheritance
+      Emp.prototype.constructor = Emp;
+
+      var e1 = new Emp(101, "Soham", "MGR");
+      e1.disp();
+      e1.dispEmp();
     </script>
   </head>
   <body></body>
