@@ -8,5 +8,3 @@ var nothing = null;
 console.log(nothing);
 var notDefined = undefined;
 console.log(notDefined);
-var bigNumber = BigInt(8901234567890);
-console.log(bigNumber);
