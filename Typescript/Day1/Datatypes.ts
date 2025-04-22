@@ -6,3 +6,6 @@ console.log(person);
 
 let isDone : boolean = true;
 console.log(isDone);
+
+let nothing : null = null;
+console.log(nothing);
