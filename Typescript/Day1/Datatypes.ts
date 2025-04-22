@@ -3,3 +3,6 @@ console.log(age);
 
 let person : string = "John Doe";
 console.log(person);
+
+let isDone : boolean = true;
+console.log(isDone);
