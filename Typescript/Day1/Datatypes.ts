@@ -9,3 +9,6 @@ console.log(isDone);
 
 let nothing : null = null;
 console.log(nothing);
+
+let notDefined : undefined = undefined;
+console.log(notDefined);
