@@ -13,3 +13,10 @@ function disp(id, name, email) {
 disp(1, "Swaraj");
 console.log("-----------------");
 disp(1, "Swaraj", "swaraj@gmail.com");
+// Default Parameter Function
+function data(name, state) {
+    if (state === void 0) { state = "Maharashtra"; }
+    console.log("Name: " + name + " " + "State: " + state);
+}
+data("John");
+data("Alice", "Madhya Pradesh");
