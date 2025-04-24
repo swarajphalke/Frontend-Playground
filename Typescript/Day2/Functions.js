@@ -3,15 +3,13 @@
 // 2. Default Parameter Function
 // 3. REST Parameter Function
 // 4. Arrow Function
-
 // Optional Parameter Function
-function disp(id: number, name: string, email?: string): void {
-  console.log("ID: " + id + " " + "Name: " + name);
-  if (email) {
-    console.log("Email: " + email);
-  }
+function disp(id, name, email) {
+    console.log("ID: " + id + " " + "Name: " + name);
+    if (email) {
+        console.log("Email: " + email);
+    }
 }
 disp(1, "Swaraj");
 console.log("-----------------");
-
 disp(1, "Swaraj", "swaraj@gmail.com");
