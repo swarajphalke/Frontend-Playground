@@ -20,3 +20,18 @@ function data(name, state) {
 }
 data("John");
 data("Alice", "Madhya Pradesh");
+// REST Parameter Function
+function addNo() {
+    var n = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        n[_i] = arguments[_i];
+    }
+    var i;
+    var sum = 0;
+    for (i = 0; i < n.length; i++) {
+        sum = sum + n[i];
+    }
+    return sum;
+}
+console.log("Sum of numbers: " + addNo(1, 2, 3, 4, 5));
+console.log("Sum of numbers: " + addNo(10, 20, 30, 40, 50, 60));
