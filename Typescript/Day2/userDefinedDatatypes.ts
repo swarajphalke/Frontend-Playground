@@ -18,6 +18,10 @@ console.log(arr1);
 let t:[number,string,boolean,null]= [1,"hello",true,null];
 console.log(t);
 
+let t1:[number,string,boolean,null][] = [[1,"hello",true,null],[2,"world",false,null]];
+console.log(t1);
+
+
 
 
  
