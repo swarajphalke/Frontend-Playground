@@ -3,8 +3,8 @@
 
 // Array
 // Tuples
-// Functions
-// Classes
+// Functions (In next folder)
+// Classes   (In next folder)
 // Enums
 
 // Array  
@@ -20,6 +20,13 @@ console.log(t);
 
 let t1:[number,string,boolean,null][] = [[1,"hello",true,null],[2,"world",false,null]];
 console.log(t1);
+
+//Enum
+enum Color {Red, Green, Blue}
+console.log(Color.Red); // 0
+console.log(Color);
+
+
 
 
 
