@@ -31,6 +31,12 @@ function addNo(...n: number[]): number {
   }
   return sum;
 }
-
 console.log("Sum of numbers: " + addNo(1, 2, 3, 4, 5));
 console.log("Sum of numbers: " + addNo(10, 20, 30, 40, 50, 60));
+
+
+// Arrow Function
+let show = (name:string) =>{
+    console.log("Hello " + name);
+}
+show("Swaraj");
