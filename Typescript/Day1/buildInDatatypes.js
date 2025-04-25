@@ -1,10 +1,11 @@
-var age = 25;
+"use strict";
+let age = 25;
 console.log(age);
-var person = "John Doe";
+let person = "John Doe";
 console.log(person);
-var isDone = true;
+let isDone = true;
 console.log(isDone);
-var nothing = null;
+let nothing = null;
 console.log(nothing);
-var notDefined = undefined;
+let notDefined = undefined;
 console.log(notDefined);
