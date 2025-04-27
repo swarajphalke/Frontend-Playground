@@ -44,7 +44,7 @@ myDate = true; // ✅ valid
 type Dog = { name: string; breed: string };
 type Cat = { name: string; color: string };
 type Pet = Dog | Cat;
-const myPet: Pet = {
+const myPet: Pet = { 
     name:"tommy",
     color:"black"
 }
