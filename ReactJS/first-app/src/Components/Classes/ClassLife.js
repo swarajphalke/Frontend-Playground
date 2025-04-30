@@ -12,30 +12,13 @@ class ClassLife extends Component {
     this.setState({ name: event.target.value });
   }
 
-  componentDidMount() {
-    console.log("ComponentDidMount");
-  }
-
-  shouldComponentUpdate() {
-    console.log("shouldComponentUpdate");
-    return true;
-  }
-
-  componentDidUpdate() {
-    console.log("componentDidUpdate");
-  }
-
-  componentWillUnmount() {
-    console.log("componentWillUnmount");
-  }
-
   render() {
     return (
       <>
-        <h1>Class Component Life Cycle... </h1>
-        <h2>You have entered {this.state.name}</h2>
+        <h2>Class Component Life Cycle</h2>
+        <p>You have entered {this.state.name}</p>
         <input type="text" onChange={this.updateName} />
-      </>
+       </>
     );
   }
 }
