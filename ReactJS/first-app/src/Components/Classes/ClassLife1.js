@@ -7,7 +7,6 @@ class ClassLife1 extends Component {
     this.IncCount = this.IncCount.bind(this);
     this.DecCount = this.DecCount.bind(this);
     this.DouCount = this.DouCount.bind(this);
-    
   }
 
   IncCount(event) {
