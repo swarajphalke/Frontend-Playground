@@ -6,6 +6,7 @@ class Welcome extends Component {
       <>
         <h1 className="text-primary">
           <u>Class Component Demo</u>
+          
         </h1>
         <hr />
       </>
