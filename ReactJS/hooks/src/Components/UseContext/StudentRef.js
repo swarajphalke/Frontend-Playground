@@ -1,4 +1,4 @@
 import { createContext } from "react";
 
-const StudentRef = createContext();
-export default StudentRef;
+const studentRef = createContext();
+export default studentRef;
