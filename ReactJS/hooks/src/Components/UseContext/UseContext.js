@@ -1,6 +1,6 @@
 // useContext is a React hook that lets you share data between components without passing props manually at every level.
 
-import {createContext, useContext} from 'react'
+import {createContext} from 'react'
 
 export const BioContext = createContext()
 

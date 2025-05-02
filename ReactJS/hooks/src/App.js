@@ -6,7 +6,9 @@ import UseEffect2 from "./Components/UseEffect/UseEffect2";
 import UseRef from "./Components/UseRef/UseRef";
 import UseRef1 from "./Components/UseRef/UseRef1";
 import { BioProvider } from "./Components/UseContext/UseContext";
-import {Home} from "./Components/UseContext/Home";
+import { Home } from "./Components/UseContext/Home";
+import StudentHome from "./Components/UseContext/StudentHome";
+import StudentData from './Components/UseContext/StudentData';
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
       <BioProvider>
         <Home />
       </BioProvider>
+      <StudentData>
+        <StudentHome />
+      </StudentData>
     </div>
   );
 }
