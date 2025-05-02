@@ -9,7 +9,7 @@ import { BioProvider } from "./Components/UseContext/UseContext";
 import { Home } from "./Components/UseContext/Home";
 import StudentHome from "./Components/UseContext/StudentHome";
 import StudentData from './Components/UseContext/StudentData';
-
+import File2 from "./Components/UseContext/File2";
 function App() {
   return (
     <div className="App">
@@ -25,6 +25,7 @@ function App() {
       <StudentData>
         <StudentHome />
       </StudentData>
+      <File2/>
     </div>
   );
 }
