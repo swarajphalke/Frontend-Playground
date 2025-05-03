@@ -8,7 +8,7 @@ export default function UncontrolForm(){
 
     return(
         <>
-            <h2>UnControlled Forms</h2>
+            <h2>UnControlled Forms by Functional Component</h2>
             <form onSubmit={handleSubmit}>
                 <label>Enter Name : </label>
                 <input type="text"  ref={inputRef}/>
