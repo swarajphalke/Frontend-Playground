@@ -11,12 +11,13 @@ import StudentHome from "./Components/UseContext/StudentHome";
 import StudentData from "./Components/UseContext/StudentData";
 import File2 from "./Components/UseContext/File2";
 import { ReducerComp } from "./Components/UseReducer";
+import Counter from "./Components/UseReducer/index2";
 function App() {
   return (
     <div className="App">
       <UseState />
       <UseEffect />
-      <UseEffect1 />
+      {/* <UseEffect1 /> */}
       <UseEffect2 />
       <UseRef />
       <UseRef1 />
@@ -28,6 +29,7 @@ function App() {
       </StudentData>
       <File2 />
       <ReducerComp />
+      <Counter/>
     </div>
   );
 }

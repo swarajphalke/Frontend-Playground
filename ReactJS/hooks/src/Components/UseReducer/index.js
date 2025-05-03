@@ -15,7 +15,7 @@ export const ReducerComp = () => {
     <>
       <h2>useReducer()1</h2>
       <div>
-        <p>{count}</p>
+        <p>count is : {count}</p>
         <button onClick={() => dispatch({ type: "INCREMENT" })}>
           Increment
         </button> &nbsp;
