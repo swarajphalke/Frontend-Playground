@@ -12,6 +12,7 @@ import StudentData from "./Components/UseContext/StudentData";
 import File2 from "./Components/UseContext/File2";
 import { ReducerComp } from "./Components/UseReducer";
 import Counter from "./Components/UseReducer/index2";
+import MemoHook from "./Components/UseMemo/MemoHook";
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
       <File2 />
       <ReducerComp />
       <Counter/>
+      <MemoHook/>
     </div>
   );
 }
