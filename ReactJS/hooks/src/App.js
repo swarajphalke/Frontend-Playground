@@ -8,8 +8,9 @@ import UseRef1 from "./Components/UseRef/UseRef1";
 import { BioProvider } from "./Components/UseContext/UseContext";
 import { Home } from "./Components/UseContext/Home";
 import StudentHome from "./Components/UseContext/StudentHome";
-import StudentData from './Components/UseContext/StudentData';
+import StudentData from "./Components/UseContext/StudentData";
 import File2 from "./Components/UseContext/File2";
+import { ReducerComp } from "./Components/UseReducer";
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       <StudentData>
         <StudentHome />
       </StudentData>
-      <File2/>
+      <File2 />
+      <ReducerComp />
     </div>
   );
 }
