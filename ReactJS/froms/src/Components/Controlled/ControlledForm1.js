@@ -25,6 +25,8 @@ class ControlForm1 extends Component{
                     <input type="text" onChange={this.handleChange}/>
                     <input type="submit" value="submit" />
                 </form>
+                <hr />
+                <hr />
             </>
         )
     }
