@@ -10,7 +10,6 @@ export default function Addon(){
             navigate("/contactus")
         }
     }
-
     return(
         <>  <h2>Addon Component</h2>
             <button onClick={navigateTopage}>Click</button>
