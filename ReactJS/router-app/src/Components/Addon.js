@@ -8,6 +8,7 @@ export default function Addon(){
             navigate("/home")
         }else{  
             navigate("/contactus")
+            
         }
     }
     return(
