@@ -9,6 +9,7 @@ export default function LoginForm() {
     initialValues: {
       email: "",
       password: "",
+      
     },
     onSubmit: (values) => {
       if (values.email && values.password) {
