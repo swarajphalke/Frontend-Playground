@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 
 export default function LoginForm() {
-  
+
   const navigate = useNavigate();
 
   const formik = useFormik({
@@ -22,6 +22,7 @@ export default function LoginForm() {
       let errors = {};
 
       if (!values.email) {
+        
         errors.email = "Email is required";
 
       } else if (!/\S+@\S+\.\S+/.test(values.email)) {
