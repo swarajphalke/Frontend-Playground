@@ -42,9 +42,10 @@ export default function LoginForm() {
   });
 
   return (
-    
+
     <form
       onSubmit={formik.handleSubmit}
+      
       style={{
         width: "35%",
         border: "2px solid blue",
