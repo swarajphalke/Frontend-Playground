@@ -37,7 +37,6 @@ export default function LoginForm() {
 
         "Password must be at least 6 characters";
       }
-      
       return errors;
     },
   });
