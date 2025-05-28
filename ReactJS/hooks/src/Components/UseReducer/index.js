@@ -10,7 +10,6 @@ export const ReducerComp = () => {
     }
   };
 
-  
   const [count, dispatch] = useReducer(reducer, 0);
   return (
     <>
