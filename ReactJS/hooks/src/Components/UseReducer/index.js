@@ -2,7 +2,6 @@ import { useReducer } from "react";
 
 export const ReducerComp = () => {
   const reducer = (state, action) => {
-    
     if (action.type === "INCREMENT") {
       return state + 1;
     }
