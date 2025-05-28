@@ -5,6 +5,7 @@
   const [data,setData] = useState('Hello')
 
   useEffect(()=>{
+    
     console.log("Updated 1...");  //renders every time
   })
 
