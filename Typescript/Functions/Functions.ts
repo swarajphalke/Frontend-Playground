@@ -15,6 +15,7 @@ disp(1, "Swaraj");
 console.log("-----------------");
 disp(1, "Swaraj", "swaraj@gmail.com");
 
+
 // Default Parameter Function
 function data(name: string, state: string = "Maharashtra") {
   console.log("Name: " + name + " " + "State: " + state);
