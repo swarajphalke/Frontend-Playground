@@ -23,7 +23,6 @@ function data(name: string, state: string = "Maharashtra") {
 data("John");
 data("Alice", "Madhya Pradesh");
 
-
 // REST Parameter Function
 function addNo(...n: number[]): number {
   let i: number;
