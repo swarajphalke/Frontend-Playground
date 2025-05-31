@@ -13,6 +13,7 @@ let arr1 = [1, 2, 3, 4, 5];
 console.log(arr1);
 // Tuples
 let t = [1, "hello", true, null];
+
 console.log(t);
 let t1 = [[1, "hello", true, null], [2, "world", false, null]];
 console.log(t1);
