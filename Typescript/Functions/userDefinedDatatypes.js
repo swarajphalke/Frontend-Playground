@@ -15,7 +15,6 @@ console.log(arr1);
 let t = [1, "hello", true, null];
 console.log(t);
 let t1 = [[1, "hello", true, null], [2, "world", false, null]];
-
 console.log(t1);
 //Enum
 var Color;
