@@ -7,7 +7,6 @@ interface Manager extends Men {
 }
 
 
-
 const emp: Manager = {
   name: "Swaraj",
   age: 20,
